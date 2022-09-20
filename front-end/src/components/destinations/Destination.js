@@ -10,18 +10,18 @@ import Gilgit from '../../assets/gilgit.jpg';
 import Skardu from '../../assets/skardu.jpg';
 function Destination() {
   return (
-    <div className="destination">
+    <div name="destinations" className="destination">
       <div className="container">
         <h1>All Inclusive Places</h1>
         <p>On the Heaven on Earth GB</p>
-        <diV className="img-container">
+        <div className="img-container">
           <img className="span-3 image-grid-row-2" src={Astore} alt="/" />
           <img src={Darel} alt="/" />
           <img src={Ghizer} alt="/" />
           <img src={Hunza} alt="/" />
           <img src={Gilgit} alt="/" />
           <img src={Skardu} alt="/" />
-        </diV>
+        </div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ import Skardu from '../../assets/skardu.jpg';
 import Selectimg from '../selectimg/Selectimg';
 function Select() {
   return (
-    <div className="selects">
+    <div name="Views" className="selects">
       <div className="container">
         <Selectimg bgImg={Ghizer} text="Ghizer" />
         <Selectimg bgImg={Darel} text="Darel" />

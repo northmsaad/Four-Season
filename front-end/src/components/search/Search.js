@@ -4,7 +4,7 @@ import React from 'react';
 import './search.css';
 function Search() {
   return (
-    <div className="search">
+    <div name="book" className="search">
       <div className="container">
         <div className="left">
           <h2>Luxury Included For People</h2>
@@ -21,11 +21,11 @@ function Search() {
           </p>
           <div className="search-col-2">
             <div className="box">
-              <diV>
+              <div>
                 <h3>No One Include More</h3>
                 <p>Lorem Ipsum is simply dummy text of</p>
                 <button>View Packages</button>
-              </diV>
+              </div>
             </div>
           </div>
         </div>
@@ -48,14 +48,14 @@ function Search() {
               </select>
             </div>
             <div>
-              <diV className="input-wrap">
+              <div className="input-wrap">
                 <label>Check-In</label>
                 <input type="date" />
-              </diV>
-              <diV className="input-wrap">
+              </div>
+              <div className="input-wrap">
                 <label>Check-Out</label>
                 <input type="date" />
-              </diV>
+              </div>
             </div>
             <button>Rate and Availbilties</button>
           </form>
