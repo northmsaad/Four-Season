@@ -12,7 +12,12 @@ import Selectimg from '../selectimg/Selectimg';
 function Select() {
   return (
     <div className="selects">
-      <Selectimg bgimg={Astore} text="Astore" />
+      <Selectimg bgImg={Ghizer} text="Ghizer" />
+      <Selectimg bgImg={Darel} text="Darel" />
+      <Selectimg bgImg={Astore} text="Astore" />
+      <Selectimg bgImg={Hunza} text="Hunza" />
+      <Selectimg bgImg={Gilgit} text="Gilgit" />
+      <Selectimg bgImg={Skardu} text="Skardu" />
     </div>
   );
 }

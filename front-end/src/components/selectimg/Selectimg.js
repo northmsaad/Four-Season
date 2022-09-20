@@ -2,14 +2,13 @@
 
 import React from 'react';
 import './selectimg.css';
-import Astore from '../../assets/ghizer.jpg';
 
-function Selectimg() {
+function Selectimg({ bgImg, text }) {
   return (
     <div className="selects-location">
-      <img src={Astore} alt="/" />
+      <img src={bgImg} alt="/" />
       <div className="overlay">
-        <p>Astore</p>
+        <p>{text}</p>
       </div>
     </div>
   );
