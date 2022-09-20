@@ -13,9 +13,9 @@ function Select() {
   return (
     <div name="Views" className="selects">
       <div className="container">
-        <Selectimg bgImg={Ghizer} text="Ghizer" />
+        <Selectimg bgImg={Ghizer} text="Astore" />
         <Selectimg bgImg={Darel} text="Darel" />
-        <Selectimg bgImg={Astore} text="Astore" />
+        <Selectimg bgImg={Astore} text="Ghizer" />
         <Selectimg bgImg={Hunza} text="Hunza" />
         <Selectimg bgImg={Gilgit} text="Gilgit" />
         <Selectimg bgImg={Skardu} text="Skardu" />
